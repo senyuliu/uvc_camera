@@ -1,0 +1,14 @@
+<launch>
+  <include file="$(find uvc_camera)/launch/camera_front.launch"/> 
+  <include file="$(find uvc_camera)/launch/camera_front_1.launch"/>
+  <include file="$(find uvc_camera)/launch/camera_front_2.launch"/>
+  <!-- <include file="$(find uvc_camera)/launch/camera_front_3.launch"/>
+  <include file="$(find uvc_camera)/launch/camera_left.launch"/>
+  <include file="$(find uvc_camera)/launch/camera_right.launch"/> -->
+  <include file="$(find uvc_camera)/launch/camera_left_1.launch"/>
+  <!-- <include file="$(find uvc_camera)/launch/camera_left_2.launch"/>
+  <include file="$(find uvc_camera)/launch/camera_left_3.launch"/> -->
+  <include file="$(find uvc_camera)/launch/camera_right_1.launch"/>
+  <!-- <include file="$(find uvc_camera)/launch/camera_right_2.launch"/>
+  <include file="$(find uvc_camera)/launch/camera_right_3.launch"/> -->
+</launch>
